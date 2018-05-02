@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA8FFBF8-558F-4D99-AB1E-49485662F880}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12C315B1-B08E-46B1-9971-45993FE2B247}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotNetCoreHelloWorldConsoleApp", "src\DotNetCoreHelloWorldConsoleApp\DotNetCoreHelloWorldConsoleApp.xproj", "{5DD98334-3026-4A96-BD79-C8A7BD0A2A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD98334-3026-4A96-BD79-C8A7BD0A2A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD98334-3026-4A96-BD79-C8A7BD0A2A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD98334-3026-4A96-BD79-C8A7BD0A2A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD98334-3026-4A96-BD79-C8A7BD0A2A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DD98334-3026-4A96-BD79-C8A7BD0A2A6A} = {EA8FFBF8-558F-4D99-AB1E-49485662F880}
+	EndGlobalSection
+EndGlobal
